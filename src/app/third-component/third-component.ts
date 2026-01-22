@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { FourthComponentComponent } from '../fourth-component/fourth-component';
 
 @Component({
   selector: 'app-third-component',
-  imports: [],
+  standalone: true,
+  imports: [FourthComponentComponent],
   templateUrl: './third-component.html',
-  styleUrl: './third-component.css',
+  styleUrl: './third-component.css'
 })
-export class ThirdComponent {
-
+export class ThirdComponentComponent {
+  name = 'terzo';
 }

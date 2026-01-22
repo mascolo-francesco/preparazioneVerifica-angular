@@ -1,0 +1,16 @@
+.container {
+  background-color: #f39c5c;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+p {
+  color: #5a5a5a;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #ff0000;
+  font-weight: bold;
+}
